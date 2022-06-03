@@ -1,0 +1,4 @@
+(
+$warga = Warga::where('NIK',$id)->first();
+return view('warga.show'.compact('warga'));
+)
